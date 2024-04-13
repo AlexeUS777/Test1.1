@@ -2,14 +2,14 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        //13.Полезное упражнение: напишите программу, которая считает корни уравнения (ax+b)*(cx+d)=0
+        int a = 2;
+        int b = 4;
+        int c = 4;
+        int d = 8;
+        int x = (b*d) / (a*c);
+        System.out.println("13. " + ("-") + Math.sqrt(x)); //не получилось посчитать корень из отрицательного числа, поэтому поставил минус перед ним
+
     }
 }
